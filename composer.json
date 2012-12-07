@@ -1,0 +1,35 @@
+{
+    "name": "mouf/javascript.jquery.jquery-colorpicker",
+    "description": "This package contains the JQuery ColorPicker library. This plugin can be used to display color pickers to pick up any color in a web page.",
+    "keywords": ["mouf", "javascript", "color-picker"],
+    "homepage": "https://github.com/thecodingmachine/javascript.jquery.jquery-colorpicker",
+    "type": "mouf-library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Négrier",
+            "email": "d.negrier@thecodingmachine.com",
+            "homepage": "http://mouf-php.com"
+        }
+    ],
+    "require": {
+    	"php": ">=5.3.0",
+		"mouf/javascript.jquery.jquery": "~1.7.2",
+		"mouf/html.utils.weblibrarymanager": "~2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mouf": "src/"
+        }
+    },
+    "extra": {
+	     "mouf": {
+			"install": [
+			{
+				"type": "url",
+	    		"url": "src/install.php"
+			}
+			]
+		}
+    }
+}
